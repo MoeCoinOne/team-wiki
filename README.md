@@ -20,3 +20,10 @@ process environments list
  
 #### loggin envs
 * LOG_FIELNAME_${category_name_in_big_case}: log file path or different `log4js-node` categories.
+
+#### CORS
+* CORS_ORIGIN: if not set, request must have header "Origin: {your_domain}"
+* CORS_ALLOW_METHODS: default is 'GET,HEAD,PUT,POST,DELETE,PATCH'
+* CORS_EXPOSE_HEADERS
+* CORS_ALLOW_HEADERS
+> `credentials` is fixed to `true`
